@@ -2,8 +2,8 @@ import os
 from Bio import SeqIO
 
 # Paths to directories
-source_folder = r"C:\Users\Cliente\Documents\area de trabalho\mitogenome\mitofish-novoplasty"
-destination_folder = r"C:\Users\Cliente\Documents\dissertacao\pcgs"
+source_folder = r"C:\Users\Cliente\Documents\mitofish-novoplasty"
+destination_folder = r"C:\Users\Cliente\Documents\pcgs"
 
 def extract_pcgs(input_file, output_file):
     with open(output_file, 'w') as out_file:
